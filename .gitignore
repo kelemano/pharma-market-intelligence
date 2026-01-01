@@ -1,0 +1,22 @@
+# --- Virtual Environment ---
+venv/
+.env
+
+# --- IDE / Editor Configuration ---
+.idea/
+.vscode/
+.DS_Store
+
+# --- Python Cache ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Data Files ---
+data/
+*.parquet
+*.csv
+
+# Exception
+!*.png
+!*.jpg
